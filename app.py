@@ -39,7 +39,7 @@ sentiment_count = data["airline_sentiment"].value_counts()
 sentiment_count = pd.DataFrame({"Sentiment":sentiment_count.index, "Tweets":sentiment_count.values})
 
 # Check box to hide the plot
-if not st.sidebar.checkbox("Hide", True, key="2")):
+if not st.sidebar.checkbox("Hide", True, key="2"):
     st.markdown("### Number of tweets by sentiment")
     # User to select plotting as Histogram or Pie Chart
     if select == "Histogram":
