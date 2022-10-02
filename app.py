@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 st.title("Sentiment Analysis of Tweets about US Airlines")
 st.sidebar.title("Sentiment Analysis of Tweets about US Airlines")
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.markdown(" This application is a Streamlit dashboard to analyze the sentiment of Tweets 🐦")
 st.sidebar.markdown(" This application is a Streamlit dashboard to analyze the sentiment of Tweets 🐦")
