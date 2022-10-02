@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-from wordcloud import wordcloud, STOPWORDS
+from wordcloud import wordcloud, STOPWORDS, WordCloud
 import matplotlib.pyplot as plt
 
 st.title("Sentiment Analysis of Tweets about US Airlines")
